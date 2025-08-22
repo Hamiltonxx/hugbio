@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        stroke: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        stroke: #df1995;
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="16" y1="44.9928" x2="48" y2="44.9928" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#df1995"></stop>
+      <stop offset=".14954" stop-color="#d91995"></stop>
+      <stop offset=".33655" stop-color="#ca1a96"></stop>
+      <stop offset=".54359" stop-color="#b01c98"></stop>
+      <stop offset=".76498" stop-color="#8d209b"></stop>
+      <stop offset=".99565" stop-color="#5f239e"></stop>
+      <stop offset="1" stop-color="#5f249f"></stop>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="16" y1="19.00721" x2="48" y2="19.00721" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5f249f"></stop>
+      <stop offset=".03606" stop-color="#66239e"></stop>
+      <stop offset=".25268" stop-color="#911f9b"></stop>
+      <stop offset=".46276" stop-color="#b31c98"></stop>
+      <stop offset=".66206" stop-color="#cb1a96"></stop>
+      <stop offset=".84598" stop-color="#d91995"></stop>
+      <stop offset="1" stop-color="#df1995"></stop>
+    </linearGradient>
+  </defs>
+  <rect class="cls-1" width="64" height="64"></rect>
+  <g>
+    <line class="cls-2" x1="18" y1="44.9928" x2="46" y2="44.9928"></line>
+    <line class="cls-3" x1="18" y1="19.00721" x2="46" y2="19.00721"></line>
+    <path class="cls-4" d="m16,10v6.00382c0,8.83511,7.16344,15.99738,16,15.99738,8.83656,0,16,7.15987,16,15.99498v6.00382"></path>
+  </g>
+</svg>

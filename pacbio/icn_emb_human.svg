@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #df1995;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="32" y1="53.48196" x2="32" y2="25.58662" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5f249f"></stop>
+      <stop offset="1" stop-color="#e02299"></stop>
+    </linearGradient>
+  </defs>
+  <rect class="cls-1" width="64" height="64"></rect>
+  <g>
+    <g>
+      <path class="cls-3" d="m40.01676,25.58662h-16.03352c-5.31667,0-7.98324,4.31091-7.98324,8.70288v19.19246h32v-19.19246c0-4.39197-2.66686-8.70288-7.98324-8.70288Z"></path>
+      <path class="cls-2" d="m23.04375,34.71087v19.28913"></path>
+      <path class="cls-2" d="m40.95605,34.71087v19.28913"></path>
+    </g>
+    <circle class="cls-4" cx="32" cy="17" r="7"></circle>
+  </g>
+</svg>

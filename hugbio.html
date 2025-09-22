@@ -5,24 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="css/output.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
 <header class="flex items-center justify-between p-6 border-b border-b-gray-200">
   <div class="text-4xl font-bold text-red-600">HUGBIO</div>
   <nav class="flex items-center space-x-10">
-    <a href="" class="text-gray-700 font-medium hover:text-red-600">PRODUCTS</a>
-    <a href="" class="text-gray-700 font-medium hover:text-red-600">ADVANTAGE</a>
-    <a href="" class="text-gray-700 font-medium hover:text-red-600">SUPPORT</a>
-    <a href="" class="text-gray-700 font-medium hover:text-red-600">COMPANY</a>
+    <a href="#products" class="text-gray-700 font-medium hover:text-red-600">PRODUCTS</a>
+    <a href="#advantage" class="text-gray-700 font-medium hover:text-red-600">ADVANTAGE</a>
+    <a href="#support" class="text-gray-700 font-medium hover:text-red-600">SUPPORT</a>
+    <a href="#company" class="text-gray-700 font-medium hover:text-red-600">COMPANY</a>
   </nav>
-  <a href="" class="bg-red-600 rounded-3xl text-white px-4 py-2 hover:bg-red-700">CONTACT</a>
+  <a href="#support" class="bg-red-600 rounded-3xl text-white px-4 py-2 hover:bg-red-700">CONTACT</a>
 </header>
 
 <main class="bg-gray-100">
   <section>
     <img src="img/2020/04/17/c5ca9a54a39c0cba24232f21a3a49d6e.jpg" alt="">
   </section>
-  <section class="flex justify-center gap-8 mt-8">
+  <section id="products" class="flex justify-center gap-8 mt-8">
     <div class="bg-white shadow-lg w-1/4">
       <img class="" src="img/temp/webinar.webp">
       <h2 class="uppercase font-semibold text-lg text-center my-4">Accuracy and Precision</h2>
@@ -40,7 +45,7 @@
     </div>
   </section>
 
-  <section class="flex justify-center gap-8 mt-8">
+  <section id="advantage" class="flex justify-center gap-8 mt-8">
     <div class="w-1/4">
       <h1 class="uppercase font-semibold text-3xl my-4">Leading supplier of liquid handling solutions</h1>
       <p class="text-xl font-extralight my-4">has an independent R&D department and knowledgeable and creative engineer’s support. An important success factor of Corning HTL projects are the teams of dedicated engineers and designers with multiple specialized profiles.</p>
@@ -87,7 +92,65 @@
     </div>
   </section>
 
-  <section class="flex justify-center gap-8 mt-16">
+  <section class="bg-gray-200 py-20 px-24 mt-8">
+    <div class="text-center">
+      <h1 class="text-4xl font-bold mb-16 uppercase tracking-wide text-gray-800">ACCELERATE YOUR RESEARCH</h1>
+      
+      <div class="flex justify-center gap-12">
+        <!-- Human Genomics -->
+        <div class="flex flex-col items-center">
+          <div class="w-20 h-20 bg-gradient-to-b from-pink-500 to-purple-600 rounded-full flex items-center justify-center mb-4">
+            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 1H5C3.89 1 3 1.89 3 3V21C3 22.11 3.89 23 5 23H19C20.11 23 21 22.11 21 21V9M19 9H14V4H5V21H19V9Z"/>
+            </svg>
+          </div>
+          <span class="text-sm font-semibold text-gray-700 uppercase tracking-wide">HUMAN GENOMICS</span>
+        </div>
+
+        <!-- Microbial Genomics -->
+        <div class="flex flex-col items-center">
+          <div class="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mb-4">
+            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27C12.59 15.41 11.11 16 9.5 16A6.5 6.5 0 0 1 3 9.5A6.5 6.5 0 0 1 9.5 3m0 2C7.01 5 5 7.01 5 9.5S7.01 14 9.5 14 14 11.99 14 9.5 11.99 5 9.5 5Z"/>
+            </svg>
+          </div>
+          <span class="text-sm font-semibold text-gray-700 uppercase tracking-wide">MICROBIAL GENOMICS</span>
+        </div>
+
+        <!-- Plant + Animal Genomics -->
+        <div class="flex flex-col items-center">
+          <div class="w-20 h-20 bg-green-600 rounded-full flex items-center justify-center mb-4">
+            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 6,17.25C7.12,17.25 8.25,16.75 9,16L10,17C10.5,17.5 11.5,18 12.5,18C13.5,18 14.5,17.5 15,17L16,18C16.75,18.75 17.88,19.25 19,19.25C21.25,19.25 23,17.5 23,15.5C23,13.5 21,9.25 16,7.25C11,5.25 4,5.25 3,7.25C2,9.25 2,11.5 2,13.5Z"/>
+            </svg>
+          </div>
+          <span class="text-sm font-semibold text-gray-700 uppercase tracking-wide">PLANT GENOMICS</span>
+        </div>
+
+        <!-- Cancer Genomics -->
+        <div class="flex flex-col items-center">
+          <div class="w-20 h-20 bg-gradient-to-b from-pink-500 to-purple-600 rounded-full flex items-center justify-center mb-4">
+            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6M12,8A4,4 0 0,0 8,12A4,4 0 0,0 12,16A4,4 0 0,0 16,12A4,4 0 0,0 12,8M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10Z"/>
+            </svg>
+          </div>
+          <span class="text-sm font-semibold text-gray-700 uppercase tracking-wide">CANCER GENOMICS</span>
+        </div>
+
+        <!-- Gene Therapy -->
+        <div class="flex flex-col items-center">
+          <div class="w-20 h-20 bg-blue-800 rounded-full flex items-center justify-center mb-4">
+            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M9,12C9,13.17 8.83,14.34 8.53,15.5C8.4,16.04 8.08,16.5 7.65,16.85L6.65,17.7C6.26,18.05 5.73,18.22 5.2,18.17C4.66,18.12 4.16,17.87 3.8,17.5C3.44,17.14 3.19,16.64 3.14,16.1C3.09,15.57 3.26,15.04 3.61,14.65L4.46,13.65C4.81,13.22 5.27,12.9 5.81,12.77C6.98,12.47 8.15,12.3 9.32,12.3C9.22,12.2 9.11,12.1 9,12M15,12C14.89,12.1 14.78,12.2 14.68,12.3C15.85,12.3 17.02,12.47 18.19,12.77C18.73,12.9 19.19,13.22 19.54,13.65L20.39,14.65C20.74,15.04 20.91,15.57 20.86,16.1C20.81,16.64 20.56,17.14 20.2,17.5C19.84,17.87 19.34,18.12 18.8,18.17C18.27,18.22 17.74,18.05 17.35,17.7L16.35,16.85C15.92,16.5 15.6,16.04 15.47,15.5C15.17,14.34 15,13.17 15,12M12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15Z"/>
+            </svg>
+          </div>
+          <span class="text-sm font-semibold text-gray-700 uppercase tracking-wide">GENE THERAPY</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="company" class="flex justify-center gap-8 mt-16">
     <div class="w-1/2 flex bg-purple-800 gap-8 p-8">
       <div class="text-white w-3/5">
         <div class="uppercase">Company Information</div>
@@ -122,7 +185,7 @@
     </div>
   </section>
 
-  <section class="bg-teal-600 py-16 px-36">
+  <section id="support" class="bg-teal-600 py-16 px-36">
     <h1 class="uppercase text-white text-3xl">talk with an expert</h1>
     <div class="flex mt-8 gap-32">
       <input type="text" class="w-1/2 bg-white p-2" placeholder="First Name *">
@@ -144,5 +207,125 @@
     </div>
   </section>
 </main>
+
+<footer class="bg-sky-800 text-white py-16 px-24">
+  <!-- <div class="max-w-4xl mx-auto"> -->
+    <div class="grid grid-cols-6 gap-8">
+      <!-- Left Column - Branding and Engagement -->
+      <div class="col-span-2">
+        <div class="text-4xl font-bold mb-4">HUGBIO</div>
+        <p class="text-sm mb-6 leading-relaxed">
+          Our revolutionary liquid handling technologies combine precision engineering with innovative design to provide the most comprehensive solutions for laboratory automation and research applications.
+        </p>
+        
+        <div class="mb-6">
+          <h3 class="text-sm font-bold mb-4">Connect with us</h3>
+          <div class="flex space-x-4">
+            <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-900 hover:bg-gray-200 transition-colors">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-900 hover:bg-gray-200 transition-colors">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+            <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-900 hover:bg-gray-200 transition-colors">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+            </a>
+            <a href="#" class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-900 hover:bg-gray-200 transition-colors">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <form class="space-y-3">
+            <input type="email" placeholder="Email *" class="w-full p-3 rounded-lg text-gray-900 bg-white border-0 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm">
+            <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-full transition-colors text-sm">
+              Join our mailing list
+            </button>
+          </form>
+        </div>
+      </div>
+      
+      <!-- Products Column -->
+      <div class="text-sm">
+        <h3 class="font-bold mb-4"><a href="#products" class="text-white hover:text-blue-300 transition-colors">PRODUCTS</a></h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">96 DEEP WELL PLATE</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">48 DEEP WELL PLATE</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">24 DEEP WELL PLATE</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">TIP COMBS PLATE</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">ROBOTIC PIPETTE TIPS</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">UNIVERSAL PIPETTE TIPS</a></li>
+        </ul>
+      </div>
+      
+      <!-- Focus Areas Column -->
+      <div class="text-sm">
+        <h3 class="font-bold mb-4"><a href="#advantage" class="text-white hover:text-blue-300 transition-colors">ADVANTAGE</a></h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">Accuracy and Precision</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">Experienced and Professional</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">Packing and Delivery</a></li>
+        </ul>
+      </div>
+
+      <!-- Focus Areas Column -->
+      <div class="text-sm">
+        <h3 class="font-bold mb-4"><a href="#support" class="text-white hover:text-blue-300 transition-colors">SUPPORT</a></h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">Order Support</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">OEM Service</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">Distribute Partner</a></li>
+        </ul>
+      </div>
+      
+      <!-- Company Column -->
+      <div class="text-sm">
+        <h3 class="font-bold mb-4"><a href="#company" class="text-white hover:text-blue-300 transition-colors">COMPANY</a></h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">Company Information</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">Global Presence</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">Mission</a></li>
+          <li><a href="#" class="text-white hover:text-blue-300 transition-colors">Social Responsibility</a></li>
+        </ul>
+      </div>
+    </div>
+  <!-- </div> -->
+</footer>
+
+<script>
+  // Enhanced smooth scrolling with offset for fixed header
+  document.addEventListener('DOMContentLoaded', function() {
+    const header = document.querySelector('header');
+    const headerHeight = header ? header.offsetHeight : 0;
+    
+    // Handle all anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        
+        if (targetElement) {
+          const targetPosition = targetElement.offsetTop - headerHeight - 20; // 20px extra padding
+          
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  });
+</script>
 </body>
 </html>
